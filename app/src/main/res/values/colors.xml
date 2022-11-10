@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!--Mr.Color-->
+    <color name="mr_scroll_view_background_color">@color/teal_200</color>
+    <color name="mr_red">#AA0000</color>
+    <color name="mr_yellow">#F3D408</color>
+    <color name="mr_blue">#1C2F88</color>
+    <color name="mr_green">#018507</color>
+    <color name="mr_white">#FFFFFF</color>
+    <color name="mr_background_color">#99000000</color>
+    <color name="mr_country_name_text_color">#FFFFFF</color>
+    <color name="mr_hint_color">#80FFFFFF</color>
 </resources>

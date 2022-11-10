@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Aston_3</string>
+    <string name="edit_text_url_hint">Enter fully correct image URL-address</string>
+    <string name="label_flags_activity">FlagsActivity</string>
+    <string name="label_main_activity">MainActivity</string>
+    <string name="label_image_activity">ImageActivity</string>
+    <string name="btn_open_flags_text">Open flags</string>
+    <string name="btn_find_your_image_text">Find your image</string>
+    <string name="btn_exit_text">EXIT</string>
+    <string name="image">image</string>
+    <string name="austria">Austria</string>
+    <string name="poland">Poland</string>
+    <string name="italy">Italy</string>
+    <string name="columbia">Columbia</string>
+    <string name="madagascar">Madagascar</string>
+    <string name="thailand">Thailand</string>
+    <string name="denmark">Denmark</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="loading_error">Loading error</string>
+    <string name="image_placeholder">Image placeholder</string>
 </resources>
