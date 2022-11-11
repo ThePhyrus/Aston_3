@@ -5,9 +5,7 @@ import android.view.KeyEvent;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.NetworkPolicy;
@@ -41,15 +39,12 @@ public class ImageActivity extends AppCompatActivity {
                         .into(imageView, new Callback() {
                             @Override
                             public void onSuccess() {
-
+                                // тут можно сделать что-нибудь полезное, но пока не нужно
                             }
 
                             @Override
                             public void onError() {
-                                Toast.makeText(
-                                        ImageActivity.this,
-                                        R.string.loading_error,
-                                        Toast.LENGTH_LONG).show();
+                                showToast();
                             }
                         });
                 return true;
@@ -61,6 +56,10 @@ public class ImageActivity extends AppCompatActivity {
     private void initViews() {
         imageView = findViewById(R.id.ivImage);
         editText = findViewById(R.id.etUrl);
+    }
+
+    private void showToast() {
+        Toast.makeText(ImageActivity.this, R.string.loading_error, Toast.LENGTH_LONG).show();
     }
 
 

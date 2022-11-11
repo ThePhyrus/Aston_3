@@ -13,22 +13,31 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_open_flags_text"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@id/btnFindImage"
-        app:layout_constraintEnd_toEndOf="@+id/btnFindImage"
-        app:layout_constraintStart_toStartOf="@+id/btnFindImage"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnUsePicasso"
+        app:layout_constraintEnd_toEndOf="@+id/btnUsePicasso"
+        app:layout_constraintStart_toStartOf="@+id/btnUsePicasso"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
-        android:id="@+id/btnFindImage"
+        android:id="@+id/btnUsePicasso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_find_your_image_text"
+        android:text="@string/btn_use_picasso_text"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenFlags" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUseDefault"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_use_default_text"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnUsePicasso"
+        app:layout_constraintStart_toStartOf="@+id/btnUsePicasso"
+        app:layout_constraintTop_toBottomOf="@+id/btnUsePicasso" />
 
     <Button
         android:id="@+id/btnExit"
@@ -39,6 +48,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFindImage" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUseDefault" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

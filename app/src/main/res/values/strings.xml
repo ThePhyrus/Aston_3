@@ -5,7 +5,7 @@
     <string name="label_main_activity">MainActivity</string>
     <string name="label_image_activity">ImageActivity</string>
     <string name="btn_open_flags_text">Open flags</string>
-    <string name="btn_find_your_image_text">Find your image</string>
+    <string name="btn_use_picasso_text">Use Picasso</string>
     <string name="btn_exit_text">EXIT</string>
     <string name="image">image</string>
     <string name="austria">Austria</string>
@@ -18,4 +18,7 @@
     <string name="switzerland">Switzerland</string>
     <string name="loading_error">Loading error</string>
     <string name="image_placeholder">Image placeholder</string>
+    <string name="label_use_default_activity">UseDefaultActivity</string>
+    <string name="my_logs">MyLogs</string>
+    <string name="btn_use_default_text">Use default</string>
 </resources>
